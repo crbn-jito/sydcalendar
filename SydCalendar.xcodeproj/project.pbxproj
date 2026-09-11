@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+{
+	"archiveVersion": 1,
+	"classes": {},
+	"objectVersion": 55,
+	"objects": {
+		"1D6058900D05DD3D006BFB54": {
+			"isa": "PBXBuildFile",
+			"fileRef": "1D6058910D05DD3D006BFB54"
+		},
+		"1D6058910D05DD3D006BFB54": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.swift",
+			"name": "SydCalendarApp.swift",
+			"path": "SydCalendarApp.swift",
+			"sourceTree": "<group>"
+		},
+		"1D6058920D05DD3D006BFB54": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.swift",
+			"name": "ContentView.swift",
+			"path": "ContentView.swift",
+			"sourceTree": "<group>"
+		},
+		"1D6058930D05DD3D006BFB54": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.swift",
+			"name": "Models.swift",
+			"path": "Models.swift",
+			"sourceTree": "<group>"
+		},
+		"1D6058940D05DD3D006BFB54": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.swift",
+			"name": "CalendarStore.swift",
+			"path": "CalendarStore.swift",
+			"sourceTree": "<group>"
+		},
+		"1D6058950D05DD3D006BFB54": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.swift",
+			"name": "CalendarPageView.swift",
+			"path": "CalendarPageView.swift",
+			"sourceTree": "<group>"
+		},
+		"1D6058960D05DD3D006BFB54": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.swift",
+			"name": "MonthGridView.swift",
+			"path": "MonthGridView.swift",
+			"sourceTree": "<group>"
+		},
+		"1D6058970D05DD3D006BFB54": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.swift",
+			"name": "DayCell.swift",
+			"path": "DayCell.swift",
+			"sourceTree": "<group>"
+		},
+		"1D6058980D05DD3D006BFB54": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.swift",
+			"name": "CalendarEditorView.swift",
+			"path": "CalendarEditorView.swift",
+			"sourceTree": "<group>"
+		},
+		"1D6058990D05DD3D006BFB54": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.swift",
+			"name": "PhotoPicker.swift",
+			"path": "PhotoPicker.swift",
+			"sourceTree": "<group>"
+		},
+		"1D60589A0D05DD3D006BFB54": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.swift",
+			"name": "Color+Hex.swift",
+			"path": "Color+Hex.swift",
+			"sourceTree": "<group>"
+		},
+		"1D60589B0D05DD3D006BFB54": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.swift",
+			"name": "Extensions+Helpers.swift",
+			"path": "Extensions+Helpers.swift",
+			"sourceTree": "<group>"
+		},
+		"1D60589C0D05DD3D006BFB54": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.xml",
+			"name": "Info.plist",
+			"path": "SydCalendar/Info.plist",
+			"sourceTree": "<group>"
+		},
+		"PROJECT": {
+			"isa": "PBXProject",
+			"attributes": {
+				"LastUpgradeCheck": 1440
+			},
+			"buildConfigurationList": "CONFIGURATION_LIST",
+			"compatibilityVersion": "Xcode 14.0",
+			"developmentRegion": "en",
+			"hasScannedForEncodings": 0,
+			"knownRegions": [
+				"en"
+			],
+			"mainGroup": "MAIN_GROUP",
+			"productRefGroup": "PRODUCT_REF_GROUP",
+			"projectDirPath": "",
+			"projectRoot": ""
+		},
+		"MAIN_GROUP": {
+			"isa": "PBXGroup",
+			"children": [
+				"1D6058910D05DD3D006BFB54",
+				"1D6058920D05DD3D006BFB54",
+				"1D6058930D05DD3D006BFB54",
+				"1D6058940D05DD3D006BFB54",
+				"1D6058950D05DD3D006BFB54",
+				"1D6058960D05DD3D006BFB54",
+				"1D6058970D05DD3D006BFB54",
+				"1D6058980D05DD3D006BFB54",
+				"1D6058990D05DD3D006BFB54",
+				"1D60589A0D05DD3D006BFB54",
+				"1D60589B0D05DD3D006BFB54",
+				"1D60589C0D05DD3D006BFB54",
+				"PRODUCT_REF_GROUP"
+			],
+			"sourceTree": "<group>",
+			"name": "SydCalendar"
+		},
+		"PRODUCT_REF_GROUP": {
+			"isa": "PBXGroup",
+			"children": [
+				"APP_REF"
+			],
+			"name": "Products",
+			"sourceTree": "<group>"
+		},
+		"APP_REF": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "wrapper.application",
+			"name": "SydCalendar.app",
+			"path": "SydCalendar.app",
+			"sourceTree": "<built-products-dir>"
+		},
+		"TARGET": {
+			"isa": "PBXNativeTarget",
+			"buildConfigurationList": "TARGET_BUILD_CONFIG_LIST",
+			"buildPhases": [
+				"SOURCES_BUILD_PHASE"
+			],
+			"buildRules": [],
+			"dependencies": [],
+			"name": "SydCalendar",
+			"productName": "SydCalendar",
+			"productReference": "APP_REF",
+			"productType": "com.apple.product-type.app"
+		},
+		"SOURCES_BUILD_PHASE": {
+			"isa": "PBXSourcesBuildPhase",
+			"buildActionMask": 2147483647,
+			"files": [
+				"1D6058900D05DD3D006BFB54"
+			],
+			"runOnlyForDeploymentPostprocessing": 0
+		},
+		"CONFIGURATION_LIST": {
+			"isa": "XCConfigurationList",
+			"buildConfigurations": [
+				"DEBUG_CONFIG",
+				"RELEASE_CONFIG"
+			],
+			"defaultConfigurationIsVisible": 0,
+			"defaultConfigurationName": "Release"
+		},
+		"TARGET_BUILD_CONFIG_LIST": {
+			"isa": "XCConfigurationList",
+			"buildConfigurations": [
+				"TARGET_DEBUG_CONFIG",
+				"TARGET_RELEASE_CONFIG"
+			],
+			"defaultConfigurationIsVisible": 0,
+			"defaultConfigurationName": "Release"
+		},
+		"DEBUG_CONFIG": {
+			"isa": "XCBuildConfiguration",
+			"buildSettings": {
+				"PRODUCT_NAME": "$(TARGET_NAME)",
+				"SWIFT_VERSION": "5.0",
+				"IPHONEOS_DEPLOYMENT_TARGET": "16.0",
+				"CODE_SIGN_IDENTITY": "",
+				"CODE_SIGNING_REQUIRED": "NO",
+				"CODE_SIGNING_ALLOWED": "NO"
+			},
+			"name": "Debug"
+		},
+		"RELEASE_CONFIG": {
+			"isa": "XCBuildConfiguration",
+			"buildSettings": {
+				"PRODUCT_NAME": "$(TARGET_NAME)",
+				"SWIFT_VERSION": "5.0",
+				"IPHONEOS_DEPLOYMENT_TARGET": "16.0"
+			},
+			"name": "Release"
+		},
+		"TARGET_DEBUG_CONFIG": {
+			"isa": "XCBuildConfiguration",
+			"buildSettings": {
+				"PRODUCT_BUNDLE_IDENTIFIER": "com.crbn-jito.sydcalendar",
+				"PRODUCT_NAME": "SydCalendar",
+				"CODE_SIGNING_ALLOWED": "NO",
+				"SWIFT_VERSION": "5.0",
+				"IPHONEOS_DEPLOYMENT_TARGET": "16.0"
+			},
+			"name": "Debug"
+		},
+		"TARGET_RELEASE_CONFIG": {
+			"isa": "XCBuildConfiguration",
+			"buildSettings": {
+				"PRODUCT_BUNDLE_IDENTIFIER": "com.crbn-jito.sydcalendar",
+				"PRODUCT_NAME": "SydCalendar",
+				"SWIFT_VERSION": "5.0",
+				"IPHONEOS_DEPLOYMENT_TARGET": "16.0"
+			},
+			"name": "Release"
+		}
+	},
+	"rootObject": "PROJECT"
+}
